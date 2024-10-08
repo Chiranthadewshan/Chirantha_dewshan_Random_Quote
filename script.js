@@ -10,7 +10,7 @@ function load(){
         }
     }
     x.onerror = function(){
-        document.getElementById("quote").innerHTML = "Error! , Connection issue";
+        document.getElementById("quote").innerHTML = "Error! , Connection! issue";
     }
 
     x.open("GET","http://api.quotable.io/random",true);
